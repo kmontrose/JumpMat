@@ -1,0 +1,22 @@
+//directives
+#include <LiquidCrystal.h>              //includes the LiquidCrystal Library 
+
+
+//global variables 
+LiquidCrystal lcd(1, 2, 4, 5, 6, 7);    //Creates an LCD object. Parameters: (rs, enable, d4, d5, d6, d7)
+
+
+void setup() {
+  //set input and output pins
+  PINMODE(XXX, INPUT);    //start button
+  PINMODE(XXX, OUTPUT);   //LED
+  
+}
+
+void loop() {
+ 
+
+
+
+
+}
